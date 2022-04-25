@@ -14,7 +14,8 @@ from typing import (
 from functools import reduce, singledispatch
 import operator
 
-from graphql.type import GraphQLEnumType, GraphQLNamedType, GraphQLSchema
+# from graphql.type import GraphQLEnumType, GraphQLNamedType, GraphQLSchema
+from graphql import GraphQLEnumType, GraphQLNamedType, GraphQLSchema
 from graphql.language.ast import (
     EnumValueNode,
     InputValueDefinitionNode,
